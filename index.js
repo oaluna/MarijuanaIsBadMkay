@@ -135,7 +135,7 @@ function questionPageTemplate(correctAnswers, questions, questionsAnswered) {
 }
 
 function handleStartButton() {
-	$('#js-start-button').click(function (event) {
+	$('js-start-button').click(function (event) {
 		nextQuestion();
 	});
 }
